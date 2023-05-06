@@ -175,6 +175,7 @@ namespace JobAIsistant
             this.txtAPIKey.Name = "txtAPIKey";
             this.txtAPIKey.Size = new System.Drawing.Size(145, 20);
             this.txtAPIKey.TabIndex = 11;
+            this.txtAPIKey.TextChanged += new System.EventHandler(this.txtAPIKey_TextChanged);
             // 
             // label10
             // 

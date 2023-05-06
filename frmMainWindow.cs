@@ -241,5 +241,10 @@ namespace JobAIsistant
                 richCoverLetter.SaveFile(saveFileDialog1.FileName, RichTextBoxStreamType.RichText);
             }
         }
+
+        private void txtAPIKey_TextChanged(object sender, EventArgs e)
+        {
+            File.WriteAllText("resources/.API_KEY", this.txtAPIKey.Text); // Save the new key
+        }
     }
 }
