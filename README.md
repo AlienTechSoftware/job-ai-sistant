@@ -7,8 +7,7 @@ This tool is useful for generating a fluent cover letter based on a template, an
 
 This tool is developed during the great lay-off in 2022/2023, and at that time recruiters are overwhelmed with irrelevant application. **Do your part** and review the job description at least twice, take notes, and decide if the job is a good match before applying.
 
-The big picture can be from [here](./docs/PR.md), but for now here what is does, hoe to set it up and use it.
-Since this is still work in progress, it has a lot of bugs see [known issues](#Known-Issues) . I stopped at the point where it was useful to me, and will continue to add features when I have time.
+The big picture can be from [here](./docs/PR.md). This is still work in progress, it has a lot of bugs see [known issues](#Known-Issues) . I stopped at the point where it was useful to me, and will continue to add features when I have time.
 
 # Setting up development environment
 
