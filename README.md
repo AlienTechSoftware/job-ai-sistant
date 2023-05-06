@@ -6,15 +6,15 @@ This tool is useful for generating a fluent cover letter based on a template, an
 The big picture can be from [here](./docs/PR.md), but for now here what is does, hoe to set it up and use it.
 Since this is still work in progress, it has a lot of bugs see [known issues](#Known-Issues) . I stopped at the point where it was useful to me, and will continue to add features when I have time.
 
+**Please use it responsibly.** This tool is developed during the great lay-off in 2022/2023, and at that time recruiters are overwhelmed with irrelevant application. 
+Do your part and review the job description at least twice, take notes, and decide if the job is a good match before applying.
+
 # Setting up development environment
 
 ## Understanding the UI
 
 The tool is not full automated yet, there are some manual steps that the use has to do to tell the AI what they care about the most, and 
 if there a cover letter template they want the AI to use for reference. this is the main screen, with the main 5 tabs: [`Job Details`, `Template`, `Logging` `Cover Letter`, `Database`]
-
-**Please use it responsibly.** This tool is developed during the great lay-off in 2022/2023, and at that time recruiters are overwhelmed with irrelevant application. 
-Do your part and review the job description at least twice, take notes, and decide if the job is a good match before applying.
 
 ### Step 1: Fill in the Job Details fields
 
