@@ -1,7 +1,7 @@
 # Job AI-sistant
-Job AI-sistant is an application that helps job seekers to manage their job search process in an efficient way. 
+Job AI-sistant is an application that helps job seekers to manage their job search process in an efficient way. This tool is useful for generating a fluent cover letter based on a template, and a job description. It is essentially form to generate an affective prompt for ChatGPT.
 
-This tool is useful for generating a fluent cover letter based on a template, and a job description. It is essentially form to generate an affective prompt for ChatGPT.
+![](./docs/ai-sistant.jpg)
 
 **Please use it responsibly.** Review [RESPONSIBLE_AI_CODE_OF_CONDUCT](./RESPONSIBLE_AI_CODE_OF_CONDUCT.md)  and [CONTRIBUTOR_COVENANT_CODE_OF_CONDUCT](./CONTRIBUTOR_COVENANT_CODE_OF_CONDUCT.md) first.
 
