@@ -54,6 +54,10 @@ if not, it will dump the prompt and result in the `Loggin` tab.
 
 If you are happy with the result, you can update the data base, or just save the cover letter locally
 
+after updating the database you will have a record of the jobs you applied to:
+
+![](./docs/page05.png)
+
 ## User provided files
 You have to provide these files in the [./resources](./resources) folder
 |Files name | Usage|
