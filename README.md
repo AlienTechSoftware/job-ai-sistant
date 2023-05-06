@@ -3,11 +3,12 @@ Job AI-sistant is an application that helps job seekers to manage their job sear
 
 This tool is useful for generating a fluent cover letter based on a template, and a job description. It is essentially form to generate an affective prompt for ChatGPT.
 
+**Please use it responsibly.** Review [RESPONSIBLE_AI_CODE_OF_CONDUCT](./RESPONSIBLE_AI_CODE_OF_CONDUCT.md)  and [CONTRIBUTOR_COVENANT_CODE_OF_CONDUCT](./CONTRIBUTOR_COVENANT_CODE_OF_CONDUCT.md) first.
+
+This tool is developed during the great lay-off in 2022/2023, and at that time recruiters are overwhelmed with irrelevant application. **Do your part** and review the job description at least twice, take notes, and decide if the job is a good match before applying.
+
 The big picture can be from [here](./docs/PR.md), but for now here what is does, hoe to set it up and use it.
 Since this is still work in progress, it has a lot of bugs see [known issues](#Known-Issues) . I stopped at the point where it was useful to me, and will continue to add features when I have time.
-
-**Please use it responsibly.** This tool is developed during the great lay-off in 2022/2023, and at that time recruiters are overwhelmed with irrelevant application. 
-Do your part and review the job description at least twice, take notes, and decide if the job is a good match before applying.
 
 # Setting up development environment
 
