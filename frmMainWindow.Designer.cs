@@ -30,6 +30,7 @@ namespace JobAIsistant
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainWindow));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.splitContainer1_1 = new System.Windows.Forms.SplitContainer();
@@ -583,6 +584,7 @@ namespace JobAIsistant
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1040, 758);
             this.Controls.Add(this.tabControl1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMainWindow";
             this.Text = "Job Search AI-sistant (Ver 0.1)";
             this.tabControl1.ResumeLayout(false);
