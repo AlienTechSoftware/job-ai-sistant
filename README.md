@@ -63,9 +63,9 @@ You have to provide these files in the [./resources](./resources) folder
 |Files name | Usage|
 |---|---|
 |.API_KEY | OpenAI Key; get from [here](https://platform.openai.com/account/api-keys) |
-|cl-header.rtf | The header for the cover letter, see [sample-cl-header.rtf](./resources/sample-cl-header.rtf) |
-|cl-template.rtf | The template to use for field replacement like `<JOB_TITLE>`, `<COMPANY>`. see [sample-cl-template.rtf](./resources/sample-cl-template.rtf)|
-|FocusOn.txt | Your top things you want the bot to focus on. see [sample-FocusOn.txt](./resources/sample-FocusOn.txt)|
+|cl-header.rtf | The header for the cover letter. |
+|cl-template.rtf | The template to use for field replacement like `<JOB_TITLE>`, `<COMPANY>`. |
+|FocusOn.txt | Your top things you want the bot to focus on. |
 
 ## Known Issues
 
