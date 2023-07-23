@@ -7,13 +7,18 @@ using Newtonsoft.Json;
 
 public class OpenAI
 {
-    private readonly string apiKey;
+    private string apiKey;
     private readonly HttpClient httpClient;
 
     public OpenAI(string apiKey)
     {
         this.apiKey = apiKey;
         this.httpClient = new HttpClient();
+    }
+
+    public void setAPIkey(string apiKey)
+    {
+        this.apiKey = apiKey;
     }
 
     public async Task<string> Complete(string prompt, string model, double temperature = 0.5, int maxTokens = 50)

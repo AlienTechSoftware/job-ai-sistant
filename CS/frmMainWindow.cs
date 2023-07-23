@@ -245,6 +245,11 @@ namespace JobAIsistant
         private void txtAPIKey_TextChanged(object sender, EventArgs e)
         {
             File.WriteAllText("resources/.API_KEY", this.txtAPIKey.Text); // Save the new key
+            if(this.openAI != null)
+            {
+                this.openAI.setAPIkey(this.txtAPIKey.Text);
+            }
+            
         }
     }
 }
