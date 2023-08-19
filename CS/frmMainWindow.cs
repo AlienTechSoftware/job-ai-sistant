@@ -157,17 +157,25 @@ namespace JobAIsistant
 
         private string GenerateCoverLetterPrompt()
         {
-            string template = "Customize this following cover letter template delimited by triple backticks.\r\n";
-            template += "in one page, in Rich Text Format : \r\n";
-            template += "```" + richrichCoverLetterTemplate.Text + "```\r\n";
-            template += "with the the following job description delimited by triple backticks ```" + txtJobTitle.Text + "```\r\n";
-            template += " at ```" + txtCompany.Text + "```\r\n";
-            template += "Focusing on:\r\n";
-            template += txtFocus.Text + "\r\n";
-            template += "Their Mission is:\r\n";
-            template += "```" + txtMission.Text + "```\r\n";
-            template += "The Job Description - delimited by triple backticks -  is:\r\n";
-            template += "```" + richJobDescription.Text + "```";
+            string template = richrichCoverLetterTemplate.Text; // Get the template from the rich text box
+
+            // Define a dictionary to store placeholder-value pairs
+            Dictionary<string, string> replacements = new Dictionary<string, string>
+            {
+                { "<JOB_TITLE>", txtJobTitle.Text },
+                { "<COMPANY>", txtCompany.Text },
+                { "<MISSION>", txtMission.Text },
+                { "<LOCATION>", txtLocation.Text },
+                { "<JOB_URL>", txtURL.Text },
+                { "<FOCUS>", txtFocus.Text },
+                { "<JOB_DESCRIPTION>", richJobDescription.Text }
+            };
+
+            // Replace all placeholders in the template
+            foreach (var replacement in replacements)
+            {
+                template = template.Replace(replacement.Key, replacement.Value);
+            }
 
             return template;
         }
